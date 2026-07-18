@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coming Soon</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      header {
+        font-family: "Merriweather", serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: red;
+        margin-bottom: 30px;
+      }
+      .more,
+      .are {
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        font-weight: 500;
+        font-size: 16px; 
+        margin-bottom: 10px;
+        color: darkmagenta;
+      }
+      p {
+        margin: 0;
+        padding: 2px;
+        font-size: 16px;
+      }
+      .request {
+        border: 1px solid blue; 
+        margin-top: 50px;
+        width: 95%;
+        max-width: 500px;
+        padding: 5px;
+      }
+      .info {
+        border: 1px solid blue;
+        width: 90%;
+        max-width: 350px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Notice</header>
+    
+    <p class="more">More Shayaris Coming Soon !</p>
+
+    <div class="info">
+
+      <p>We're working on new Shayaris and exciting features.</p>
+      <p>What you can expect:</p>
+      <p><span style="color: red;">&#10084;</span> New Shayari Collection</p>
+      <p>&#128269; Better Categories</p>
+      <p>&#11088; More Improvements</p>
+    </div>
+
+    <div class="request">
+      <p class="are">Are you a Shayar ?</p>
+
+      <p>If you write original shayaris, we'd love to feature them on Part Tine Shayar.</p>
+
+      <p>&#9997; Email us at:</p>
+      <p>thedeanambrose03@gmail.com</p>
+      <p>(Please send your original work only with your name if you want credit)</p>
+      <p><span style="color: red">&#9888; Important</span> <span style="color: red">&#9888;</span> Shayaris with foul language will not be accepted.</p>
+
+      <p>Thank you for visiting Part Time Shayar <span style="color: red;">&#10084;</span></p>
+  </body>
+  <script>
+    loop = setInterval(() => {
+      if(document.title === 'Coming Soon') {
+        document.title = 'Thanks for visiting';
+      } else {
+        document.title = 'Coming Soon';
+      }
+    }, 2000);
+  </script>
+</html>
